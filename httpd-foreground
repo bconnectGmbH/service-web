@@ -45,6 +45,4 @@ if [[ "$APACHE_BASIC_AUTH_USER_SECONDARY" != "" ]] && [[ "$APACHE_BASIC_AUTH_PAS
 fi
 
 
-cat /usr/local/apache2/htpasswd
-
 exec httpd ${args}
